@@ -107,7 +107,7 @@ class Colors:
         bold = "\u001b[1m" if bold is True else ""
         underline = "\u001b[4m" if underline is True else ""                 
         
-        print(self.all_color_combinations[id] + bold + underline +  " " + string + " " + self.end)
+        print("\n" + self.all_color_combinations[id] + bold + underline +  " " + string + " " + self.end + "\n")
 
 
 colors = Colors()
